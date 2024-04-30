@@ -1,0 +1,29 @@
+.productos {
+    padding: 20px;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .card-img-top {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    text-align: right;
+  }
+  
+  .btn-primary {
+    text-decoration: none;
+  }
+  
+  .btn-primary:hover {
+    text-decoration: none;
+  }  

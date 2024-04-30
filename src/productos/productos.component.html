@@ -1,0 +1,17 @@
+<div class="container mt-5">
+  <h2 class="text-center text-danger">Productos</h2>
+  <div class="row">
+    <div class="col-md-4 mb-4" *ngFor="let producto of productos">
+      <div class="card">
+        <img [src]="producto.image" class="card-img-top" alt="Producto">
+        <div class="card-body">
+          <h5 class="card-title"><b>{{ producto.title }}</b></h5>
+          <p class="card-text text-end">{{ producto.price  }}</p>
+          <a href="#" class="card-link" style="text-decoration: none;" (mouseover)="hover = true" (mouseout)="hover = false">
+            Comprar<span *ngIf="hover">_</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
